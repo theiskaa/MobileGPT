@@ -1,0 +1,31 @@
+name: chatgpt
+description: Unofficial ChatGPT mobile application
+homepage: https://github.com/theiskaa/ChatGPT-Mobile
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^4.0.1
+  flutter_bloc: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: 'assets/openai.png'
+  android: true
+  ios: true
